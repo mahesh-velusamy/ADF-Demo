@@ -10,9 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Customers-10000.csv",
-				"folderPath": "csv",
-				"fileSystem": "source"
+				"fileName": "customers-10000.csv",
+				"fileSystem": "sink"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
