@@ -1,0 +1,23 @@
+{
+	"name": "github_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpGH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "mahesh-velusamy/ADF-Demo/refs/heads/main/customers-1000.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

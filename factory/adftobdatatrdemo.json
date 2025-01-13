@@ -1,0 +1,9 @@
+{
+	"name": "adftobdatatrdemo",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "acd80c79-c78f-4336-af40-4b6a157ca339",
+		"tenantId": "984421a1-553c-4aca-8da3-56c0a4a09795"
+	}
+}
